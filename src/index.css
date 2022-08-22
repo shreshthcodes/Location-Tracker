@@ -5,8 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, beige, rgb(236, 236, 155));
 }
-
+@font-face {
+  font-family: "myfont";
+  src: url('../Aboreto.ttf');
+}
+.fonty{
+  font-family: myfont;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
